@@ -1,0 +1,502 @@
+@font-face {
+    font-family: "BebasKai";
+    src: url(../fonts/BebasKai.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+header{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    background-color: white;
+}
+nav{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    z-index: 1000;
+}
+.img-container{
+    width: 10rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.img-container img{
+    width: 100%;
+    height:100%;
+}
+.medio{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.medio ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.medio li{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: BebasKai;
+}
+.medio a{
+    text-decoration: none;
+    color: black;
+    transition: 2s ease;
+    position: relative;
+}
+
+.medio a::after{
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -5px;
+      width: 0%;
+      height: 2px;
+      background: #333;
+      transition: 0.3s ease;
+}
+
+.medio a:hover::after {
+      width: 100%;
+}
+
+.final{
+    width: 10rem;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.final a{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.final a img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.SeccionPorta{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.SeccionPortada{
+    width: 90%;
+    height: 75vh;
+    background-image: url(../images/MCHOSE_Ace_68_Turbo_banner.webp);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.SeccionPortada img{
+    width: 200px;
+    height: 220px;
+}
+.SeccionPortada h2{
+    font-size: 14vw;
+    font-family: BebasKai;
+}.SeccionPortada h2 ~ p{
+    font-size: 1.7vw;
+    font-family: Bebaskai;
+}
+.SeccionUno{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    font-family: BebasKai;
+}
+.SeccionUno .textoSeccionUno{
+    width: 80%;
+    height: 20vh;
+    color: rgb(19, 18, 18);
+    margin-top: 40px;
+    
+}
+.SeccionUno h3{
+    font-size: 70px;
+    text-decoration: underline;
+    font-weight: normal;
+}
+.SeccionUno h3 ~ p{
+    width: 60%;
+    font-size: 18px;
+}
+.elpepe{
+    width: 90%;
+    height: 75vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+.mitaduno{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    font-family: BebasKai;
+}
+.mitaduno h3{
+    font-weight: normal;
+    font-size: 100px;
+}
+.textocolor{
+    color: rgb(20, 20, 26);
+    font-size: 120px;
+    transition: 0.5s;
+}
+.textocolor:hover{
+    color: blue;
+    font-size: 150px;
+}
+.agregado{
+    opacity: 0;
+    transition: 0.5s;
+    font-size: 20px;
+    align-items: center;
+    
+}
+.textocolor:hover + .agregado{
+    opacity: 1;
+    transform: translateX(50px);
+}
+.container_img_partone{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+.container_img_partone a{
+    width: 80%;
+    height: 100%;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/1.png);
+    filter:contrast(1px);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.container_img_partone a::after{
+    content: "";
+    background-color: black;
+    opacity: 0;
+    transition: all 0.2s ease-out;
+    position: absolute;
+    inset: 0;
+}
+.container_img_partone a:hover::after{
+    opacity: 1;
+}
+.cuadroimagen p{
+    opacity: 0%;
+    text-decoration: none;
+    color: white;
+    font-family: BebasKai;
+    font-size: 50px;
+    z-index: 2;
+    position: relative;
+    transition: all 0.2s ease-out;
+}
+.container_img_partone a:hover .cuadroimagen p{
+    opacity: 100%;
+}
+.SeccionUno{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    font-family: BebasKai;
+}
+.SeccionUno .textoSeccionUno{
+    width: 90%;
+    height: 20%;
+    color: rgb(19, 18, 18);
+    margin-top: 40px;
+}
+.SeccionUno h3{
+    font-size: 70px;
+    text-decoration: underline;
+    font-weight: normal;
+}
+.SeccionUno h3 > p{
+    width: 60%;
+    font-size: 18px;
+}
+.SeccionUnoImagen{
+    width: 90%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.imagenUno, .imagenDos, .imagenTres{
+    background-color: white;
+    width: 30%;
+    height: 100%;
+}
+.imagenDos div{
+    background-color: blue;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.imagenDos div p{
+    opacity: 0;
+}
+.imagenUno div{
+    background-color: blue;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.imagenUno div p{
+    opacity: 0;
+}
+.linkeando{
+    text-decoration: none;
+    color: white;
+}
+.linkeando > div{
+    transition: all 0.5s ease;
+    transition-duration: 0.3s;
+}
+.linkeando:hover > div{
+    background-color: black;
+    opacity: 100%;
+    transform: translateY(-10px);
+}
+.linkeando:hover > div p{
+    opacity: 100%;
+} 
+.imagenTres div{
+    background-color: blue;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.imagenTres div p{
+    opacity: 0%;
+}
+h4{
+    text-decoration: none;
+    text-transform: none;
+    text-overflow: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footertitle{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+.firstpartoffooter{
+    width: 90%;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.footer_agregado{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: BebasKai;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    
+}
+.footer_agregado p{
+    font-size: 15px;
+}
+.footer_partone{
+    width: 30%;
+    height: 100%;
+    padding: 40px;
+    line-height: 1.5rem;
+}
+.footer_parttwo{
+    width: 20%;
+    height: 100%;
+    padding: 40px;
+    line-height: 2rem;
+}
+.footer_parttwo ul{
+    list-style: none;
+    
+}
+.footer_parttwo a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 15px;
+    opacity: 0.6;
+    transition: 0.2s;
+}
+.footer_parttwo a:hover{
+    opacity: 1;
+}
+.footer_partthree{
+    width: 20%;
+    height: 100%;
+    padding: 40px;
+    line-height: 2rem;
+}
+.footer_partthree ul{
+    list-style: none;
+}
+.footer_partthree a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 15px;
+    opacity: 0.6;
+    transition: 0.2s;
+}
+.footer_partthree a:hover{
+    opacity: 1;
+}
+.footer_partfour{
+    width: 30%;
+    height: 100%;
+    padding: 40px;
+    line-height: 2rem;
+}
+.footer_partfour input{
+    width: 20rem;
+    height: 2rem;
+    font-family: BebasKai;
+    border-radius: 10px;
+    margin: 0;
+    padding-left: 10px;
+}
+.footer_partfour button{
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    font-family: BebasKai;
+    font-weight: normal;
+    font-style: normal;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+.footer_partfour button:hover{
+    background-color: aqua;
+}
+footer{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    font-size: 15px;
+    font-family: BebasKai;
+    color: white;
+    width: 100%;
+    height: 10vh;
+    padding-left: 30px;
+}
+footer > div{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
