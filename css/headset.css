@@ -131,7 +131,8 @@ nav{
     width: 90%;
     height: 75vh;
     border-radius: 30px;
-    background-image: url(../images/MCHOSE_Ace_68_Turbo_banner.webp);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-image: url(../images/headset/Banner.webp);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -357,7 +358,10 @@ footer > div{
     height: 100%;
 }
 .imagenDos div{
-    background-color: blue;
+    background-image: url(../images/headset/Headset_1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     height: 80%;
     display: flex;
@@ -369,7 +373,10 @@ footer > div{
     opacity: 0;
 }
 .imagenUno div{
-    background-color: blue;
+    background-image: url(../images/headset/Headset_2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     height: 80%;
     display: flex;
@@ -391,14 +398,16 @@ footer > div{
     transform: translateY(-10px);
 }
 .linkeando:hover > div{
-    background-color: black;
     opacity: 100%;
 }
 .linkeando:hover > div p{
     opacity: 100%;
 } 
 .imagenTres div{
-    background-color: blue;
+    background-image: url(../images/headset/Headset_3.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     height: 80%;
     display: flex;
@@ -407,5 +416,60 @@ footer > div{
     justify-content: center;
 }
 .imagenTres div p{
+    opacity: 0%;
+}
+
+/*PARTE DOS*/
+
+.imagenUno_dos, .imagenDos_dos, .imagenTres_dos{
+    background-color: white;
+    width: 30%;
+    height: 100%;
+    overflow: hidden;
+}
+.imagenUno_dos div{
+    background-image: url(../images/headset/Headset_4.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.imagenUno_dos div p{
+    opacity: 0;
+}
+.imagenDos_dos div{
+    background-image: url(../images/headset/Headset_5.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.imagenDos_dos div p{
+    opacity: 0;
+}
+.imagenTres_dos div{
+    background-image: url(../images/headset/Headset_6.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.imagenTres_dos div p{
     opacity: 0%;
 }
