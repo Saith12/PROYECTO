@@ -74,7 +74,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(../images/keyboard/MechanicalKeyboard_2.webp);
+    background-image: url(../images/mice/OpticalMouse_1.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -89,7 +89,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(../images/keyboard/MechanicalKeyboard_1.webp);
+    background-image: url(../images/mice/OpticalMouse_2.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -118,7 +118,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(../images/keyboard/MechanicalKeyboard_3.webp);
+    background-image: url(../images/mice/OpticalMouse_3.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -194,7 +194,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(../images/keyboard/MagneticKeyboard_2.jpeg);
+    background-image: url(../images/headset/Headset_1.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -209,7 +209,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(../images/keyboard/MagneticKeyboard_1.webp);
+    background-image: url(../images/headset/Headset_2.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -224,7 +224,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(../images/keyboard/MagneticKeyboard_3.webp);
+    background-image: url(../images/headset/Headset_3.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
