@@ -1,0 +1,53 @@
+
+label{
+    display:block;
+}
+.subscribirme{
+    display: block;
+    width: 150px;
+    height: 80px;
+    color: aliceblue;
+    background-color: brown;
+    border: none;
+    text-decoration: none;
+}
+.subscribirme:hover{
+    background-color: black;
+}
+.curso{
+    margin-top: 20px;
+}
+label{
+    margin-top: 10px;
+}
+.cuadro{
+    width: 90%;
+    height: 110vh;
+    padding-left: 80px;
+    margin-top: 50px;
+    font-family: BebasKai;
+    color: black;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#formulari{
+    width: 100%;
+    color: black;
+    height: 100%;
+    margin-bottom: 50px;
+}
+h1{
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#tituloform{
+    color: black;
+    align-items: start;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
