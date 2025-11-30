@@ -125,7 +125,7 @@ nav{
 .SeccionPortada{
     width: 100%;
     height: 85vh;
-    background-image: url(../images/MCHOSE_Ace_68_Turbo_banner.webp);
+    background-image: url(../images/index/Banner.webp);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -183,14 +183,27 @@ nav{
 }
 .imagenuno, .imagendos, .imagentres{
     width: 100%;
-    height: 90%;
+    height: 50%;
     width: calc(80% / 3);
-    background-color: rgb(58, 6, 6);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
+    overflow: hidden;
+
+}
+.imagenuno img{
+    max-width: 100%;
+    height: auto;
+}
+.imagendos img{
+    max-width: 100%;
+    height: auto;
+}
+.imagentres img{
+    max-width: 100%;
+    height: auto;
 }
 .terceraParte{
     width: 100%;
@@ -210,7 +223,7 @@ nav{
     height: 100%;
     width: 45%;
     pointer-events: none;
-    background-image:url(../images/Logoprueba.png);
+    background-image:url(../images/index/Logoprueba.png);
     background-size:  auto 100% ;
     background-position: left center;
     background-repeat: no-repeat;

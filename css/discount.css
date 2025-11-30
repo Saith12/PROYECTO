@@ -175,3 +175,147 @@ nav{
     width: 60%;
     font-size: 18px;
 }
+h4{
+    text-decoration: none;
+    text-transform: none;
+    text-overflow: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footertitle{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+.firstpartoffooter{
+    width: 90%;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.footer_agregado{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: BebasKai;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    
+}
+.footer_agregado p{
+    font-size: 15px;
+}
+.footer_partone{
+    width: 30%;
+    height: 100%;
+    padding: 40px;
+    line-height: 1.5rem;
+}
+.footer_parttwo{
+    width: 20%;
+    height: 100%;
+    padding: 40px;
+    line-height: 2rem;
+}
+.footer_parttwo ul{
+    list-style: none;
+    
+}
+.footer_parttwo a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 15px;
+    opacity: 0.6;
+    transition: 0.2s;
+}
+.footer_parttwo a:hover{
+    opacity: 1;
+}
+.footer_partthree{
+    width: 20%;
+    height: 100%;
+    padding: 40px;
+    line-height: 2rem;
+}
+.footer_partthree ul{
+    list-style: none;
+}
+.footer_partthree a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 15px;
+    opacity: 0.6;
+    transition: 0.2s;
+}
+.footer_partthree a:hover{
+    opacity: 1;
+}
+.footer_partfour{
+    width: 30%;
+    height: 100%;
+    padding: 40px;
+    line-height: 2rem;
+}
+.footer_partfour input{
+    width: 20rem;
+    height: 2rem;
+    font-family: BebasKai;
+    border-radius: 10px;
+    margin: 0;
+    padding-left: 10px;
+}
+.footer_partfour button{
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    font-family: BebasKai;
+    font-weight: normal;
+    font-style: normal;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+.footer_partfour button:hover{
+    background-color: aqua;
+}
+footer{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    font-size: 15px;
+    font-family: BebasKai;
+    color: white;
+    width: 100%;
+    height: 10vh;
+    padding-left: 30px;
+}
+footer > div{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}

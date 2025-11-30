@@ -130,8 +130,10 @@ nav{
 .SeccionPortada{
     width: 90%;
     height: 75vh;
-    background-image: url(../images/MCHOSE_Ace_68_Turbo_banner.webp);
+    background-image: url(../images/mice/Banner.webp);
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position: left;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -233,7 +235,7 @@ nav{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../images/1.png);
+    background-image: url(../images/mice/1.png);
     filter:contrast(1px);
     position: relative;
     overflow: hidden;
@@ -305,7 +307,10 @@ nav{
     height: 100%;
 }
 .imagenDos div{
-    background-color: blue;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/mice/mchose-official-mouse-a5-pro-white-mchose-a5-series-wireless-mouse-1166639918.webp);
     width: 100%;
     height: 80%;
     display: flex;
@@ -317,7 +322,10 @@ nav{
     opacity: 0;
 }
 .imagenUno div{
-    background-color: blue;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/mice/mchose-official-mouse-black-mchose-a7x-ultra-magnesium-alloy-wireless-gaming-mouse-1200359829.webp);
     width: 100%;
     height: 80%;
     display: flex;
@@ -345,7 +353,10 @@ nav{
     opacity: 100%;
 } 
 .imagenTres div{
-    background-color: blue;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/mice/mchose-official-mouse-a7-v2-pro-black-mchose-a7-v2-series-lightweight-all-round-wireless-gaming-mouse-1200359730.webp);
     width: 100%;
     height: 80%;
     display: flex;
@@ -356,6 +367,70 @@ nav{
 .imagenTres div p{
     opacity: 0%;
 }
+
+
+
+
+
+
+
+
+
+/*PARTE DOS*/
+
+.imagenUno_dos, .imagenDos_dos, .imagenTres_dos{
+    background-color: white;
+    width: 30%;
+    height: 100%;
+}
+.imagenUno_dos div{
+    background-image: url(../images/mice/OpticalMouse_1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.imagenUno_dos div p{
+    opacity: 0;
+}
+.imagenDos_dos div{
+    background-image: url(../images/mice/OpticalMouse_2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.imagenDos_dos div p{
+    opacity: 0;
+}
+.imagenTres_dos div{
+    background-image: url(../images/mice/OpticalMouse_3.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.imagenTres_dos div p{
+    opacity: 0%;
+}
+
+
+
 h4{
     text-decoration: none;
     text-transform: none;

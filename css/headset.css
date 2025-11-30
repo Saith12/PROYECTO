@@ -33,6 +33,7 @@ nav{
     align-items: center;
     position: fixed;
     background-color: white;
+    z-index: 1000;
 }
 .img-container{
     width: 10rem;
@@ -317,4 +318,94 @@ footer > div{
     display: flex;
     justify-content: start;
     align-items: center;
+}
+.SeccionUno{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    font-family: BebasKai;
+}
+.SeccionUno .textoSeccionUno{
+    width: 90%;
+    height: 20%;
+    color: rgb(19, 18, 18);
+    margin-top: 40px;
+}
+.SeccionUno h3{
+    font-size: 70px;
+    text-decoration: underline;
+    font-weight: normal;
+}
+.SeccionUno h3 > p{
+    width: 60%;
+    font-size: 18px;
+}
+.SeccionUnoImagen{
+    width: 90%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.imagenUno, .imagenDos, .imagenTres{
+    background-color: white;
+    width: 30%;
+    height: 100%;
+}
+.imagenDos div{
+    background-color: blue;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.imagenDos div p{
+    opacity: 0;
+}
+.imagenUno div{
+    background-color: blue;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.imagenUno div p{
+    opacity: 0;
+}
+.linkeando{
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+}
+.linkeando > div{
+    transition: all 0.5s ease;
+    transition-duration: 0.3s;
+    transform: translateY(-10px);
+}
+.linkeando:hover > div{
+    background-color: black;
+    opacity: 100%;
+}
+.linkeando:hover > div p{
+    opacity: 100%;
+} 
+.imagenTres div{
+    background-color: blue;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.imagenTres div p{
+    opacity: 0%;
 }
